@@ -1,0 +1,24 @@
+#bilgi{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+#bilgi .hobiler{
+    flex-direction: column;
+}
+#bilgi .hobiler .hobi{
+    padding: 0.5rem;
+    text-align: center;
+    width: 90%;
+    
+}
+#bilgi .hobiler .hobi i{
+    color: springgreen;
+}
+#bilgi .hobiler .hobi h3{
+    color: hotpink;
+}

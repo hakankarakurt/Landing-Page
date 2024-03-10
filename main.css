@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#navbar{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 0.75;
+}
+
+#navbar ul li{
+list-style-type: none;
+align-items: center;
+display: flex;
+}
+
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background-color: goldenrod;
+    border-radius: 7px;
+}
+#anakısım{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+#anakısım a{
+    font-size: 2rem;
+    padding: 0 1rem;
+    display: inline-block;
+    color: white;
+}
+#anakısım a:hover{
+    border-radius: 75px;
+    background-color: lawngreen;
+    font-size: 3rem;
+}
+#anakısım img{
+   max-width: 35% ;
+   height: auto;
+   border-radius: 100px ;
+   margin-bottom: 1.75rem;
+
+}
+#anakısım h2{
+    color: white;
+    margin-bottom: 0.75rem;
+}
+#anakısım p{
+    color: rgb(160, 117, 144);
+    font-weight: 500;
+    font-style: inherit;
+    font-size: large;
+}
+#bilgi{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+#bilgi .hobiler{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bilgi .hobiler .hobi{
+    padding: 0.5rem;
+    text-align: center;
+    width: 33%;
+    
+}
+#bilgi .hobiler .hobi i{
+    color: springgreen;
+}
+#bilgi .hobiler .hobi h3{
+    color: hotpink;
+}
+#bilgiler{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: aliceblue;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+#bilgi .diller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bilgi .diller .dil{
+    padding: 0.5rem;
+    text-align: center;
+    width: 33%;
+}
+#bilgi .diller .dil h3{
+    color: chartreuse;
+}
+.son{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+
+
+
+
+    
+
